@@ -1,0 +1,281 @@
+* {
+    font-family: 'Jura', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #161616;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    background-color: #4C4848;
+    margin: 1em 0em;
+    padding: 1em 2em;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+
+}
+
+.fa-basketball {
+    font-size: 1.5em;
+    margin-right: .75rem;
+    color: #FF2F1B;
+}
+
+.dif-color-comp-name {
+    color: #FF2F1B;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+}
+
+.fa-bars {
+    font-size: 1.5em;
+}
+
+.header-link {
+    display: none;
+}
+
+.main-area {
+    padding: 3em 2em;
+}
+
+.standings-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    padding: .25em 0em;
+    font-weight: 700;
+}
+
+.conference-select {
+    display: flex;
+    justify-content: space-around;
+    padding: .75em 0em .75em 0;
+    font-size: .75em;
+    width: 22em;
+    
+}
+
+.east-conf-select {
+    font-weight: 900;
+}
+
+.standings-div {
+    background-color: #FF2F1B;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 326px;
+    height: 250px;
+}
+
+.team-stats-cats {
+    display: flex;
+    padding: .5em 0;
+    font-size: .9em;
+    font-weight: 900;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    font-size: .9em;
+    font-weight: 900;
+}
+
+.team-col {
+    margin-left: 2.75em;
+}
+
+.wins-col {
+    margin-left: 1.75em;
+}
+
+.ranks {
+    margin-left: .25em;
+    font-size: .9em;
+    font-weight: 900;
+}
+.teams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1em;
+    font-size: .9em;
+    font-weight: 900;
+}
+
+
+.wins {
+    margin-left: 1.25em;
+    font-size: .9em;
+    font-weight: 900;
+}
+
+.losses-col {
+    margin-left: 1em;
+}
+
+.losses {
+    margin-left: .75em;
+    font-size: .9em;
+    font-weight: 900;
+}
+
+.win-pct-col {
+    margin-left: 1em;
+}
+
+.pct {
+    margin-left: .25em;
+    font-size: .9em;
+    font-weight: 900;
+}
+
+.gb-col {
+    margin-left: 1em;
+}
+
+.gb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: .75em;
+    font-size: .9em;
+    font-weight: 900;
+}
+
+.conf-record-col {
+    margin-left: .75em;
+}
+
+.conf {
+    margin-left: .75em;
+    font-size: .9em;
+    font-weight: 900;
+}
+
+.home-record-col {
+    margin-left: .75em;
+}
+
+.home {
+    margin-left: .75em;
+    font-size: .9em;
+    font-weight: 900;
+}
+
+.away-record-col {
+    margin-left: .5em;
+}
+
+.last-ten-record-col {
+    margin-left: .75em;
+}
+
+.win-streak-col {
+    margin-left: .5em;
+}
+
+.away {
+    font-size: .9em;
+    margin-left: .75em;
+    font-weight: 900;
+}
+
+.last-ten {
+    font-size: .9em;
+    margin-left: 1em;
+    font-weight: 900;
+}
+
+.streak {
+    font-size: .9em;
+    margin-left: 1em;
+    font-weight: 900;
+}
+
+.see-more-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0;
+    font-size: 1em;
+    
+}
+
+.gallery-div {
+    width: 326px;
+    height: 250px;
+    background-image: url('./images/boston-mayor-fans-td-garden-fenway-park-through.webp');
+    background-size: 326px 250px;
+    border-radius: 30px;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.inner-gal {
+    display: flex;  
+    align-items: center;
+    margin-top: 9em;
+}
+
+.gallery-button {
+    background-color: #FF2F1B;
+    width: auto;
+    font-size: 1.25em;
+    font-weight: 900;
+    width: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.75em;
+    border-radius: 2em;
+    margin: 0em 1em;
+}
+
+.left-arrow-gallery {
+    display: flex;
+    font-size: 2.25em;
+    background-color: black;
+    color: #FF2F1B;
+    border-radius: 1.125em;
+    
+}
+
+.right-arrow-gallery {
+    display: flex;
+    font-size: 2.25em;
+    background-color: black;
+    color: #FF2F1B;
+    border-radius: 1.125em;
+    
+}
+
+footer {
+    background-color: #4C4848;
+    display: flex;
+    flex-direction: column;
+    font-size: .75em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    padding: .5em 0;
+}
+
