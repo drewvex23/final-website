@@ -46,13 +46,21 @@ header {
     
 }
 
-.right-header div {
+.burger-menu {
+    display: none;
+}
+
+.open-burger-menu {
     display: none;
 }
 
 .header-link {
     display: flex;
     margin-left: 2em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 .main-area {
@@ -309,8 +317,12 @@ footer i {
         font-size: 1.5em;
     }
 
-    .right-header div {
+    .burger-menu {
         display: flex;
+    }
+
+    .burger-menu-open {
+        display: none;
     }
     
     header {
@@ -331,6 +343,10 @@ footer i {
 
     .mobile-link {
         margin: .25em;
+        text-decoration: none;
+        font-size: 1.25em;
+        color: black;
+        font-weight: 700;
     }
 
     .header-link {

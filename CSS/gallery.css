@@ -1,0 +1,111 @@
+* {
+    font-family: 'Jura', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #161616;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4C4848;
+    margin: 1em 0em;
+    padding: 1em 2em;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+
+}
+
+.mobile-links {
+    display: none;
+}
+
+.fa-basketball {
+    font-size: 1.5em;
+    margin-right: .75rem;
+    color: #FF2F1B;
+}
+
+.dif-color-comp-name {
+    color: #FF2F1B;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+}
+
+.fa-bars {
+    font-size: 1.5em;
+    
+}
+
+.burger-menu {
+    display: none;
+}
+
+.open-burger-menu {
+    display: none;
+}
+
+.header-link {
+    display: flex;
+    margin-left: 2em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
+
+
+
+@media  (max-width: 1200px) {
+    .fa-bars {
+        font-size: 1.5em;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .open-burger-menu {
+        display: none;
+    }
+    
+    header {
+        margin-bottom: 0;
+    }
+
+    .mobile-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 7em;
+        background-color: #4C4848;
+        width: 100%;
+        height: 10em;
+    }
+
+    .mobile-link {
+        margin: .25em;
+        text-decoration: none;
+        font-size: 1.25em;
+        color: black;
+        font-weight: 700;
+    }
+
+    .header-link {
+        display: none;
+    }
+
+}
