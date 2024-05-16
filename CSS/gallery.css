@@ -63,7 +63,25 @@ header {
     font-weight: 700;
 }
 
+.burger-menu :hover {
+    cursor: pointer;
+}
 
+.gallery-button :hover {
+    cursor: pointer;
+}
+
+.left-arrow-gallery {
+    cursor: pointer;
+}
+
+.right-arrow-gallery {
+    cursor: pointer;
+}
+
+.see-more-div {
+    cursor: pointer;
+}
 
 
 

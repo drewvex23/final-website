@@ -242,7 +242,7 @@ header {
 .gallery-div {
     width: 500px;
     height: 400px;
-    background-image: url('./images/boston-mayor-fans-td-garden-fenway-park-through.webp');
+    background-image: url('./images/image2.jpg');
     background-size: 500px 400px;
     border-radius: 30px;
     display: flex;
@@ -309,6 +309,27 @@ footer i {
     font-size: 1.5em;
     margin: 0 .25em;
 }
+
+.burger-menu :hover {
+    cursor: pointer;
+}
+
+.gallery-button :hover {
+    cursor: pointer;
+}
+
+.left-arrow-gallery {
+    cursor: pointer;
+}
+
+.right-arrow-gallery {
+    cursor: pointer;
+}
+
+.see-more-div {
+    cursor: pointer;
+}
+
 
 
 
