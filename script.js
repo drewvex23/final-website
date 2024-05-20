@@ -7,7 +7,7 @@ const rightArrow = document.querySelector('.right-arrow-gallery')
 const galleryDiv = document.querySelector('.gallery-div')
 
 
-const galleryImagesPreview = ['./images/image1.webp','./images/image2.jpg','./images/image3.jpg','./images/image4.jpg','./images/image5.avif','./images/image6.jpg']
+const galleryImagesPreview = ["url('./images/image1.webp')","url('./images/image2.webp')","url('./images/image3.webp')","url('./images/image4.avif')","url('./images/image5.avif')","url('./images/image6.jpg')"]
 
 
 burgerMenu.addEventListener('click', () => {
@@ -26,7 +26,20 @@ galleryButton.addEventListener('click', () => {
     location.href = './HTML/gallery.html'
 })
 
-rightArrow.addEventListener('click', () => {
-    
-    galleryDiv.style.backgroundImage = "url('./images/image1.webp')" 
+
+let counter = 0
+rightArrow.addEventListener('click', () => {  
+    if (counter == galleryImagesPreview.length) {
+        counter = 0
+    }
+    counter += 1
+    galleryDiv.style.backgroundImage = galleryImagesPreview[counter]
+})
+
+leftArrow.addEventListener('click', () => {  
+    if (counter == 0) {
+        counter = galleryImagesPreview.length
+    }
+    counter -= 1
+    galleryDiv.style.backgroundImage = galleryImagesPreview[counter]
 })

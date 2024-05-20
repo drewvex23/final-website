@@ -242,7 +242,7 @@ header {
 .gallery-div {
     width: 500px;
     height: 400px;
-    background-image: url('./images/image2.jpg');
+    background-image: url('./images/image1.webp');
     background-size: 500px 400px;
     border-radius: 30px;
     display: flex;
@@ -555,7 +555,7 @@ footer i {
     .gallery-div {
         width: 326px;
         height: 250px;
-        background-image: url('./images/boston-mayor-fans-td-garden-fenway-park-through.webp');
+        background-image: url('./images/image1.webp');
         background-size: 326px 250px;
         border-radius: 30px;
         margin-top: 3em;
