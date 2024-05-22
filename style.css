@@ -305,9 +305,10 @@ footer div {
     width: 335px;
 }
 
-footer i {
+footer a {
     font-size: 1.5em;
     margin: 0 .25em;
+    color: white;
 }
 
 .burger-menu :hover {
@@ -615,9 +616,10 @@ footer i {
         padding: 1em 0;
     }
 
-    footer i {
+    footer a {
         font-size: 1.25em;
-        padding: .5em 0;
+        padding: .5em 0em;
+        color: white;
     }
     
 }
