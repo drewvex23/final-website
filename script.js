@@ -5,10 +5,13 @@ const galleryButton = document.querySelector('.gallery-button')
 const leftArrow = document.querySelector('.left-arrow-gallery')
 const rightArrow = document.querySelector('.right-arrow-gallery')
 const galleryDiv = document.querySelector('.gallery-div')
-
-
 const galleryImagesPreview = ["url('./images/image1.webp')","url('./images/image2.webp')","url('./images/image3.webp')","url('./images/image4.avif')","url('./images/image5.avif')","url('./images/image6.jpg')"]
-
+const easternSeeMoreBtn = document.querySelector('.eastern-see-more-div')
+const easternMoreTeamStats = document.querySelector('.eastern-see-more-stats')
+const easternCloseMoreBtn = document.querySelector('.eastern-close-more-div')
+const westernSeeMoreBtn = document.querySelector('.western-see-more-div')
+const westernMoreTeamStats = document.querySelector('.western-see-more-stats')
+const westernCloseMoreBtn = document.querySelector('.western-close-more-div')
 
 burgerMenu.addEventListener('click', () => {
     mobileLinks.style.display = 'flex'
@@ -42,4 +45,28 @@ leftArrow.addEventListener('click', () => {
     }
     counter -= 1
     galleryDiv.style.backgroundImage = galleryImagesPreview[counter]
+})
+
+easternSeeMoreBtn.addEventListener('click', () => {
+    easternMoreTeamStats.style.display = 'flex'
+    easternSeeMoreBtn.style.display = 'none'
+    easternCloseMoreBtn.style.display = 'flex'
+})
+
+easternCloseMoreBtn.addEventListener('click', () => {
+    easternMoreTeamStats.style.display = 'none'
+    easternSeeMoreBtn.style.display = 'flex'
+    easternCloseMoreBtn.style.display = 'none'
+})
+
+westernSeeMoreBtn.addEventListener('click', () => {
+    westernMoreTeamStats.style.display = 'flex'
+    westernSeeMoreBtn.style.display = 'none'
+    westernCloseMoreBtn.style.display = 'flex'
+})
+
+westernCloseMoreBtn.addEventListener('click', () => {
+    westernMoreTeamStats.style.display = 'none'
+    westernSeeMoreBtn.style.display = 'flex'
+    westernCloseMoreBtn.style.display = 'none'
 })

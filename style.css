@@ -109,7 +109,7 @@ header {
     font-weight: 900;
 }
 
-.stats {
+.eastern-stats {
     display: flex;
     flex-direction: row;
     font-size: .9em;
@@ -319,18 +319,37 @@ footer a {
     cursor: pointer;
 }
 
-.left-arrow-gallery {
+.left-arrow-gallery :hover {
     cursor: pointer;
 }
 
-.right-arrow-gallery {
+.right-arrow-gallery :hover {
     cursor: pointer;
 }
 
-.see-more-div {
+.eastern-see-more-div :hover {
     cursor: pointer;
 }
 
+.eastern-close-more-div :hover {
+    cursor: pointer;
+}
+
+.western-see-more-div :hover {
+    cursor: pointer;
+}
+
+.western-close-more-div :hover {
+    cursor: pointer;
+}
+
+.east-conf-select {
+    cursor: pointer;
+}
+
+.west-conf-select {
+    cursor: pointer;
+}
 
 
 
@@ -409,8 +428,9 @@ footer a {
         display: flex;
         align-items: center;
         flex-direction: column;
+        padding-bottom: 1em;
         width: 326px;
-        height: 250px;
+        height: auto;
     }
     
     .team-stats-cats {
@@ -420,8 +440,29 @@ footer a {
         font-weight: 900;
     }
     
-    .stats {
+    .eastern-stats {
         display: flex;
+        flex-direction: row;
+        font-size: .9em;
+        font-weight: 900;
+    }
+
+    .western-stats {
+        display: none;
+        flex-direction: row;
+        font-size: .9em;
+        font-weight: 900;
+    }
+
+    .eastern-see-more-stats {
+        display: none;
+        flex-direction: row;
+        font-size: .9em;
+        font-weight: 900;
+    }
+
+    .western-see-more-stats {
+        display: none;
         flex-direction: row;
         font-size: .9em;
         font-weight: 900;
@@ -544,13 +585,37 @@ footer a {
         font-weight: 900;
     }
     
-    .see-more-div {
+    .eastern-see-more-div {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 1em 0;
         font-size: 1em;
+    }
+
+    .western-see-more-div {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        margin: 1em 0;
+        font-size: 1em;
         
+    }
+
+    .eastern-close-more-div {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        margin: 1em 0;
+        font-size: 1em;
+    }
+
+    .western-close-more-div {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        margin: 1em 0;
+        font-size: 1em;
     }
     
     .gallery-div {
