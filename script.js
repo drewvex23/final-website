@@ -82,8 +82,13 @@ eastSelector.addEventListener('click', () => {
     westStats.style.display = 'none'
     easternSeeMoreBtn.style.display = 'flex'
     westernSeeMoreBtn.style.display = 'none'
-    westernMoreTeamStats.style.display = 'none'
     westernCloseMoreBtn.style.display = 'none'
+    if (westernMoreTeamStats.style.display == 'flex') {
+        easternMoreTeamStats.style.display = 'flex'
+        westernMoreTeamStats.style.display = 'none'
+        easternSeeMoreBtn.style.display = 'none'
+        easternCloseMoreBtn.style.display = 'flex'
+    }
 })
 
 westSelector.addEventListener('click', () => {
@@ -93,6 +98,12 @@ westSelector.addEventListener('click', () => {
     westStats.style.display = 'flex'
     easternSeeMoreBtn.style.display = 'none'
     westernSeeMoreBtn.style.display = 'flex'
-    easternMoreTeamStats.style.display = 'none'
     easternCloseMoreBtn.style.display = 'none'
+
+    if (easternMoreTeamStats.style.display == 'flex') {
+        easternMoreTeamStats.style.display = 'none'
+        westernMoreTeamStats.style.display = 'flex'
+        westernSeeMoreBtn.style.display = 'none'
+        westernCloseMoreBtn.style.display = 'flex'
+    }
 })
