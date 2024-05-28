@@ -197,6 +197,10 @@ footer a {
         margin-bottom: 2em;
     }
 
+    .middle-footer {
+        margin: .5em 0;
+    }
+
     footer a {
         font-size: 1.25em;
         padding: .5em 0em;
