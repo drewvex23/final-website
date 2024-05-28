@@ -12,6 +12,10 @@ const easternCloseMoreBtn = document.querySelector('.eastern-close-more-div')
 const westernSeeMoreBtn = document.querySelector('.western-see-more-div')
 const westernMoreTeamStats = document.querySelector('.western-see-more-stats')
 const westernCloseMoreBtn = document.querySelector('.western-close-more-div')
+const eastSelector = document.querySelector('.east-conf-select')
+const westSelector = document.querySelector('.west-conf-select')
+const eastStats = document.querySelector('.eastern-stats')
+const westStats = document.querySelector('.western-stats')
 
 burgerMenu.addEventListener('click', () => {
     mobileLinks.style.display = 'flex'
@@ -69,4 +73,26 @@ westernCloseMoreBtn.addEventListener('click', () => {
     westernMoreTeamStats.style.display = 'none'
     westernSeeMoreBtn.style.display = 'flex'
     westernCloseMoreBtn.style.display = 'none'
+})
+
+eastSelector.addEventListener('click', () => {
+    eastSelector.style.fontWeight = '900'
+    westSelector.style.fontWeight = '400'
+    eastStats.style.display = 'flex'
+    westStats.style.display = 'none'
+    easternSeeMoreBtn.style.display = 'flex'
+    westernSeeMoreBtn.style.display = 'none'
+    westernMoreTeamStats.style.display = 'none'
+    westernCloseMoreBtn.style.display = 'none'
+})
+
+westSelector.addEventListener('click', () => {
+    eastSelector.style.fontWeight = '400'
+    westSelector.style.fontWeight = '900'
+    eastStats.style.display = 'none'
+    westStats.style.display = 'flex'
+    easternSeeMoreBtn.style.display = 'none'
+    westernSeeMoreBtn.style.display = 'flex'
+    easternMoreTeamStats.style.display = 'none'
+    easternCloseMoreBtn.style.display = 'none'
 })
