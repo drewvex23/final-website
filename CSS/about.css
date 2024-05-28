@@ -90,6 +90,10 @@ footer a {
     cursor: pointer;
 }
 
+.open-burger-menu :hover {
+    cursor: pointer;
+}
+
 .gallery-button :hover {
     cursor: pointer;
 }
