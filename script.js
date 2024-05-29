@@ -36,16 +36,18 @@ galleryButton.addEventListener('click', () => {
 
 let counter = 0
 rightArrow.addEventListener('click', () => {  
+    counter += 1
     if (counter == galleryImagesPreview.length) {
         counter = 0
     }
-    counter += 1
     galleryDiv.style.backgroundImage = galleryImagesPreview[counter]
+
 })
 
 leftArrow.addEventListener('click', () => {  
+    
     if (counter == 0) {
-        counter = galleryImagesPreview.length
+        counter = galleryImagesPreview.length 
     }
     counter -= 1
     galleryDiv.style.backgroundImage = galleryImagesPreview[counter]
