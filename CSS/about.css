@@ -63,6 +63,43 @@ header {
     font-weight: 700;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0em;
+}
+
+.about-title {
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #4C4848;
+    border-radius: 3em;
+    width: 430px;
+}
+
+.about-title img {
+    width: 250px;
+    border-radius: 3em;
+}
+
+.about-title h1 {
+    padding-top: .75em;
+}
+
+.about-title p {
+    font-weight: 800;
+}
+
+.info-area {
+    background-color: #4C4848;
+    width: 430px;
+}
+
 footer {
     background-color: #4C4848;
     display: flex;
@@ -151,6 +188,81 @@ footer a {
     .header-link {
         display: none;
     }
+
+
+
+
+
+
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3em 0em;
+    }
+    
+    .about-title {
+        padding: 2em 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #4C4848;
+        border-radius: 3em;
+        width: 430px;
+    }
+    
+    .about-title img {
+        width: 250px;
+        border-radius: 3em;
+    }
+    
+    .about-title h1 {
+        padding-top: .75em;
+    }
+    
+    .about-title p {
+        font-weight: 800;
+    }
+    
+    .info-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #4C4848;
+        width: 430px;
+        border-radius: 3em;
+        padding: 2em;
+        margin-top: 3em;
+    }
+
+    .info-area img {
+        width: 250px;
+        margin-top: 1em;
+    }
+
+    .coding-experience {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #4C4848;
+        width: 430px;
+        border-radius: 3em;
+        padding: 2em;
+        margin-top: 3em;
+    }
+
+    .coding-experience img {
+        width: 250px;
+        margin-top: 1em;
+    }
+
+
+
+
+
 
     footer {
         background-color: #4C4848;
