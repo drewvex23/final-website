@@ -232,7 +232,7 @@ footer a {
         flex-direction: column;
         align-items: center;
         background-color: #4C4848;
-        width: 430px;
+        width: 366px;
         border-radius: 3em;
         padding: 2em;
         margin-top: 3em;
@@ -241,6 +241,7 @@ footer a {
     .info-area img {
         width: 250px;
         margin-top: 1em;
+        border-radius: 3em;
     }
 
     .coding-experience {
@@ -248,7 +249,7 @@ footer a {
         flex-direction: column;
         align-items: center;
         background-color: #4C4848;
-        width: 430px;
+        width: 366px;
         border-radius: 3em;
         padding: 2em;
         margin-top: 3em;
@@ -257,6 +258,7 @@ footer a {
     .coding-experience img {
         width: 250px;
         margin-top: 1em;
+        border-radius: 3em;
     }
 
 
