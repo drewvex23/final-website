@@ -63,11 +63,15 @@ header {
     font-weight: 700;
 }
 
+
+
+
+
 section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     margin: 3em 0em;
 }
 
@@ -79,7 +83,8 @@ section {
     justify-content: center;
     background-color: #4C4848;
     border-radius: 3em;
-    width: 430px;
+    width: 360px;
+    height: fit-content;
 }
 
 .about-title img {
@@ -96,9 +101,44 @@ section {
 }
 
 .info-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #4C4848;
-    width: 430px;
+    width: 296px;
+    border-radius: 3em;
+    padding: 2em;
+    margin: 0em 2em;
+    height: fit-content;
 }
+
+.info-area img {
+    width: 250px;
+    margin-top: 1em;
+    border-radius: 3em;
+}
+
+.coding-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4C4848;
+    width: 296px;
+    border-radius: 3em;
+    padding: 2em;
+    
+}
+
+.coding-experience img {
+    width: 250px;
+    margin-top: 1em;
+    border-radius: 3em;
+}
+
+
+
+
+
 
 footer {
     background-color: #4C4848;

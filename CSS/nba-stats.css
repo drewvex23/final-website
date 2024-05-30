@@ -58,7 +58,7 @@ header {
     display: none;
 }
 
-.burger-menu-open {
+.open-burger-menu {
     display: none;
 }
 
@@ -69,6 +69,29 @@ header {
     color: black;
     font-size: 1.5em;
     font-weight: 700;
+}
+
+footer {
+    background-color: #4C4848;
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    padding: 1.25em 3em;
+}
+
+footer div {
+    width: 335px;
+}
+
+footer a {
+    font-size: 1.5em;
+    margin: 0 .25em;
+    color: white;
 }
 
 .burger-menu :hover {
@@ -132,4 +155,26 @@ header {
         display: none;
     }
 
+    footer {
+        background-color: #4C4848;
+        display: flex;
+        flex-direction: column;
+        font-size: .75em;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-weight: 900;
+        padding: 1em 0;
+    }
+
+    .middle-footer {
+        margin: .5em 0;
+    }
+
+    footer a {
+        font-size: 1.25em;
+        padding: .5em 0em;
+        color: white;
+    }
 }
