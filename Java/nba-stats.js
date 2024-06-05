@@ -13,3 +13,4 @@ openBurgerMenu.addEventListener('click', () => {
     burgerMenu.style.display = 'block'
     openBurgerMenu.style.display = 'none'
 })
+
