@@ -114,6 +114,53 @@ footer a {
     cursor: pointer;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.row-div {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+}
+
+section h1 {
+    text-align: center;
+    color: #FF2F1B;
+    margin: 2em 0;
+}
+
+.individual-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF2F1B;
+    border-radius: 3em;
+    width: 100%;
+    margin: 2em 2em;
+    padding: 1em 0;
+    max-width: 500px;
+    
+}
+
+.individual-div h2 {
+    color: black;
+    font-weight: 900;
+    margin: .5em 0;
+    text-decoration: underline;
+}
+
+.individual-div p {
+    margin: .25em 0;
+}
+
+.individual-div span {
+    font-weight: 900;
+}
+
 @media  (max-width: 1200px) {
     .fa-bars {
         font-size: 1.5em;
@@ -181,7 +228,7 @@ footer a {
     section {
         display: flex;
         flex-direction: column;
-        padding: 3em 2em;
+        padding: 3em 1em;
         align-items: center;
     }
 
@@ -191,29 +238,36 @@ footer a {
         margin-bottom: 2em;
     }
 
-    section div {
+    .row-div {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .individual-div {
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: #FF2F1B;
         border-radius: 3em;
-        width: 100%;
+        width: auto;
         margin: 2em 0;
-        padding: 1em 0;
+        padding: 1em 1em;
         max-width: 500px;
     }
 
-    section div h2 {
+    .individual-div h2 {
         color: black;
         font-weight: 900;
         margin: .5em 0;
+        text-decoration: underline;
     }
 
-    section div p {
+    .individual-div p {
         margin: .25em 0;
     }
 
-    section div span {
+    .individual-div span {
         font-weight: 900;
     }
 }
