@@ -251,7 +251,7 @@ footer a {
         justify-content: center;
         background-color: #4C4848;
         border-radius: 3em;
-        width: 430px;
+        width: 400px;
     }
     
     .about-title img {
@@ -272,10 +272,14 @@ footer a {
         flex-direction: column;
         align-items: center;
         background-color: #4C4848;
-        width: 366px;
+        width: 400px;
         border-radius: 3em;
-        padding: 2em;
         margin-top: 3em;
+        padding: 2em 0;
+    }
+
+    .info-area p {
+        padding: 0 2em;
     }
 
     .info-area img {
@@ -289,10 +293,14 @@ footer a {
         flex-direction: column;
         align-items: center;
         background-color: #4C4848;
-        width: 366px;
+        width: 400px;
         border-radius: 3em;
-        padding: 2em;
         margin-top: 3em;
+        padding: 2em 0;
+    }
+
+    .coding-experience p {
+        padding: 0 2em;
     }
 
     .coding-experience img {
