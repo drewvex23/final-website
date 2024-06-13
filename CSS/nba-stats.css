@@ -161,6 +161,10 @@ section h1 {
     font-weight: 900;
 }
 
+.individual-div img {
+    border-radius: 3em;
+}
+
 @media  (max-width: 1200px) {
     .fa-bars {
         font-size: 1.5em;
