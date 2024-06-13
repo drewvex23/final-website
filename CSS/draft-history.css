@@ -275,4 +275,9 @@ section h1 {
     .individual-div span {
         font-weight: 900;
     }
+
+    .individual-div img {
+        border-radius: 3em;
+        
+    }
 }
